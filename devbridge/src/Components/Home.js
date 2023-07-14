@@ -6,14 +6,14 @@ import AppCarousel from './Carousal';
 import '../App.css';
 const Home =() =>{return(
     <div>
-<header id='header'>
+      <header id='header'>
       <AppHeader/>
       </header>
-  <div className="d-block w-100 ">
+      <div className="d-block w-100 ">
 
-<Alog />
-</div>
-<AppCarousel/>
+      <Alog />
+      </div>
+      <AppCarousel/>
     </div>
 
 );};

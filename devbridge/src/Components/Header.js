@@ -17,7 +17,7 @@ const AppHeader=()=>{
        <Link class="nav-link" to="/about">Home <span class="sr-only"></span></Link>
      </li>
      <li class="nav-item">
-       <Link class="nav-link" to="/hero">About</Link>
+       <Link class="nav-link" to="/login">Login/SignUp</Link>
      </li>
      <li class="nav-item">
        <Link class="nav-link" to="/myown">Find Job</Link>
