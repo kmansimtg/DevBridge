@@ -1,0 +1,172 @@
+.resum{
+    width: 40%;
+    position:absolute;
+    background:white;
+    right:380px;
+    
+    z-index:102S;
+    margin:16px auto;
+    padding:24px;
+    border: 1px solid lightgrey;
+    border-radius:8px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+        font-size:16px;
+        margin:0;
+        padding:0;
+}
+#mu{
+   
+        align-items: center;
+        border-bottom: 1px solid lightgrey;
+        padding: 10px;
+}
+#contr{
+    width: 99%;
+   
+    background:white;
+    right:400px;
+    
+    z-index:102S;
+    margin:16px auto;
+    padding:24px;
+    border: 1px solid lightgrey;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    border-radius:8px;
+
+        font-size:16px;
+        margin:0;
+        padding:0;
+
+}
+ #prog{
+    width: 100%;
+    height:7px;
+    background: navy;
+    border-radius:12px;
+    margin: 6px 0 10px;
+    padding:0;
+} 
+.backArrow{
+    display:flex;
+    align-items: center;
+}
+.backArrow{
+    cursor:pointer;
+    width: 20px;
+    margin-right: 8px;
+    padding:5px;
+}
+.backArrow{
+    background: rgb(238, 241, 254);
+    border-radius:5px;
+}
+
+h3{
+    color: #3d3a3a;
+    margin: 15px 0;
+}
+
+h2{
+    font-size:20px;
+    margin: 15px 0;
+
+}
+h4{
+    font-size:16px;
+    color: grey;
+    margin: 15px 0;
+
+}
+
+
+
+
+ p{
+    color: #706e6e;
+
+}
+
+ h3{
+    font-size:17px;
+    margin-bottom:20px !important;
+    padding-top: 10px;
+    margin-top: 8px;
+    color: rgb(22, 64, 129);
+}
+
+small{
+    color: grey;
+    margin: 15px 0;
+}
+
+span{
+    cursor: pointer;
+    color: rgb(22, 64, 129);
+    margin: 15px 0;
+}
+
+.resume{
+    margin: 10px 0 20px;
+    height:70px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    
+    height: 30px;
+    color: #ee1b1b;
+     
+    margin-right: 16px;
+    font-size:16px;
+}
+
+input{
+    width: 25px;
+    height: 25px;
+    margin-right: 16px;
+    margin: 15px 0;
+}
+.textCenter{
+    text-align:center;
+    margin: 15px 0;
+}
+button{
+    width: 220px;
+    background: rgb(22, 64, 129);
+    padding:13px;
+    font-weight: bold;
+    font-size:15px;
+    border-radius:5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 15px 0;
+}
+/*
+.resume{
+    
+   
+}
+.resume>h3{
+  
+   
+    cursor: pointer
+}
+
+
+
+
+
+ h3{
+    
+}
+
+
+
+
+
+
+
+
+ */

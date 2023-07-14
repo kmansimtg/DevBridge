@@ -776,6 +776,7 @@ textarea {
 
 .pricing-block .btn-holder {
   padding: 30px 20px;
+  color: #3448f5;
 }
 
 .pricing-block div[class*="col"]:nth-child(2) {
@@ -914,9 +915,12 @@ textarea {
 .contact-block .row {
   margin: 0 0 25px;
 }
-
+#krum{
+  color: #3448f5;
+}
 .contact-block .btn-holder {
   text-align: center;
+  color: #3448f5;
 }
 
 .contact-block .contact-form {
