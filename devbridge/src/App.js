@@ -6,7 +6,7 @@ import Contactus from './Components/Contact';
 import Reviewonce from './Components/Review';
 import Searchjob from './Components/Jobsearch';
 import Completed from './Components/Success';
-import Resumeupload from './Components/Uploadresume';
+
 import Jobapply from './Components/Applyjob';
 import CompanyPage from './Components/CompanyPage';
 import SearchPage from './Components/SearchPage';
@@ -33,7 +33,7 @@ function App() {
               <Route path="/review" element={<Reviewonce/> }/>
               <Route path="/completed" element={<Completed /> }/>
               <Route path="/jobapply" element={<Jobapply /> }/>
-              <Route path="/resumeupload" element={<Resumeupload /> }/>
+              
               <Route path="/reviewonce" element={<Jobapply /> }/>
               <Route path="/searchjob" element={<Searchjob />}/>
               <Route path="/contactus" element={<Contactus /> }/>

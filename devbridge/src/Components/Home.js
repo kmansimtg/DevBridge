@@ -14,6 +14,7 @@ const Home =() =>{return(
 
       <Alog />
       </div>
+      <Footerr />
      
      
     </div>

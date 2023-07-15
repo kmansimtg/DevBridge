@@ -1,4 +1,4 @@
-import './Uploadresume.css';
+
 import React from "react";
 import './Form.css';
 import '../App.css';
