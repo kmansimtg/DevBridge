@@ -2,7 +2,7 @@
 
  
 
-   h2{
+h2{
     margin: 19px 0;
 }
 
@@ -53,6 +53,9 @@ p{
 }
 p>span{
     color:rgb(22, 64, 129);
+}
+.upper-part{
+    background-color: beige;
 }
 
 

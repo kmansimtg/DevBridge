@@ -1,3 +1,10 @@
+.chal1{
+    background-color: #ee1b1b;
+}
+
+
+
+
 .resum{
     width: 40%;
     position:absolute;
@@ -13,6 +20,7 @@
         font-size:16px;
         margin:0;
         padding:0;
+    margin-top: 50px;
 }
 #mu{
    
