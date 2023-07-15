@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './CompanyPage.module.css';
-
+import { Link } from 'react-router-dom';
 function CompanyPage() {
   return (
     <div>
@@ -67,7 +67,7 @@ function CompanyPage() {
                                It is an established organisation which works for the development of underprivileged children and their families.The oraginsation has been working since 2012 in the same field and has since helped more than 21 thousand children across various metropolitian cities 
                              </p>
                              <p className={styles.hello3}>LOOKING FOR A SOFTWARE DEVELOPER INTERN</p>
-                             <button className={styles.read_more_btn} type="button">View Details</button>
+                            <Link to="/searchjob"> <button className={styles.read_more_btn} type="button">View Details</button></Link>
                           </div>
                         </div>
                       </div>
@@ -135,7 +135,7 @@ function CompanyPage() {
                               It is a long established organisational working in the DELHI NCR region since 1987. The company specilises in designing and manufacture of valves, motors, pistons , rings and bearing of various cars and other mobility vehicles.
                             </p>
                             <p className={styles.hello3}>LOOKING FOR AN APP DEVELOPER</p>
-                            <button className={styles.read_more_btn} type="button">View Details</button>
+                            <Link to="/searchjob"> <button className={styles.read_more_btn} type="button">View Details</button></Link>
                           </div>
                         </div>
                       </div>
@@ -204,7 +204,7 @@ function CompanyPage() {
                               
                             </p>
                             <p className={styles.hello3}>LOOKING FOR A REACT DEVELOPER</p>
-                            <button className={styles.read_more_btn} type="button">View Details</button>
+                            <Link to="/searchjob"> <button className={styles.read_more_btn} type="button">View Details</button></Link>
                           </div>
                         </div>
                       </div>
