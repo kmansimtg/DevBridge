@@ -22,7 +22,7 @@ const Carousal=()=>{
         <div class="carousel-item active" >
         <img src={require('./assets/img-hero1.jpg')}class="d-block w-100" alt="Slide 1"></img>
         <div class="carousel-caption d-none d-md-block">
-        <h3>Find jobs,hire or build app and websites? We have got you covered.</h3>
+        <h3>Find jobs,hire or build app and websites We have got you covered.</h3>
         <p>DevBridge acts as a bridge between job seekers and employees and between customers and developers</p>
 
         </div>

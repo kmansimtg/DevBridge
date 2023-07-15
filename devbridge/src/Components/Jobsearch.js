@@ -29,11 +29,11 @@ function Jobsearch(){return(<div>
                    <div>
             <div className="jobHeadings">
                 <div className="titlee" >
-                    <h3 >Software Engineer</h3>
+                    <h3 >Software Developer Intern</h3>
                     
                 </div>
                 <div className="comp">
-                    <h4>Aivee
+                    <h4>ZEEKO LIVES LTD
                     </h4>
                     
                     <p> - wfh</p>

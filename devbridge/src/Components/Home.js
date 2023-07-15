@@ -2,8 +2,9 @@ import './Header';
 import React from "react";
 import Alog from './Alog/Alog.js';
 import AppHeader from './Header';
-import AppCarousel from './Carousal';
+// import AppCarousel from './Carousal';
 import '../App.css';
+ import Footerr from './Footer';
 const Home =() =>{return(
     <div>
       <header id='header'>
@@ -13,7 +14,8 @@ const Home =() =>{return(
 
       <Alog />
       </div>
-      <AppCarousel/>
+      {/* <AppCarousel/> */}
+      <Footerr/>
     </div>
 
 );};
