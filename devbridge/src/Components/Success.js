@@ -13,7 +13,7 @@ export default function Success(){return(
                        
                         <p><strong>Aivee</strong> typically responds to applications within 10 days.</p>
                     </div>
-                    <Link to="/jobapply"><div className='gobackk'>Return to job search</div></Link>
+                    <Link to="/searchpage"><div className='gobackk'>Return to job search</div></Link>
                 </div>
             </div>
        
