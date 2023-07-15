@@ -1,8 +1,8 @@
 .hello{
-    color:#367db4;
+    color:#065794;
     font-weight: 800;
     align-items: center;
-    font-size: 210%;
+    font-size: 110%;
     border: 5px ;
     margin: auto;
     width: 50%;
@@ -13,6 +13,7 @@
   
   .section_our_solution .row {
       align-items: center;
+      box-shadow: #065794;
     }
     
     .our_solution_category {
@@ -50,7 +51,7 @@
     
     
     .solution_cards_box .solution_card:hover {
-      background: #309df0;
+      background: #065794;
       color: #fff;
       transform: scale(1.1);
       z-index: 9;
@@ -80,7 +81,7 @@
     
     .solution_cards_box .solution_card:hover .solu_description button {
       background: #fff !important;
-      color: #309df0;
+      color: #065794;
     }
     
     
@@ -101,16 +102,17 @@
     .solution_card .solu_description button {
       border: 0;
       border-radius: 15px;
-      background: linear-gradient(
-        140deg,
-        #42c3ca 0%,
-        #42c3ca 50%,
-        #42c3cac7 75%
-      ) !important;
+      /* background: linear-gradient( */
+        /* 140deg, */
+        /* #42c3ca 0%, */
+        /* #42c3ca 50%, */
+        /* #42c3cac7 75% */
+      /* ) !important; */
       color: #fff;
       font-weight: 500;
       font-size: 1rem;
       padding: 5px 16px;
+      background-color: #065794;
     }
     
     .our_solution_content div {
@@ -201,6 +203,6 @@
     font-family:Arial, Helvetica, sans-serif;
     font-size: 170;
     font-weight: 900;
-    color:#1c6daf
+    color:#065794;
     
    }

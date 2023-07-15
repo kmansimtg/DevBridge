@@ -23,7 +23,7 @@ const AppHeader=()=>{
        <Link class="nav-link" to="/searchpage">Find Job</Link>
      </li>
      <li class="nav-item">
-       <Link class="nav-link" to="/">Hire</Link>
+       <Link class="nav-link" to="/companylistpage">Hire</Link>
      </li>
      
    </ul>

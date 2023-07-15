@@ -1,63 +1,78 @@
 import React from "react";
 import '../App.css';
 import Button from 'react-bootstrap/Button';
- import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';
+import AppHeader from './Header';
+
+
  export default function AppAboutus(){
     return(
-     <div id="blog" className="block blog-block">
-        <div class="container text-center">
-            <div className="title-holder">
-                <h2>About us</h2>
-                <div className="sub-title">
-                    Get to know more about us
-                </div>
-            </div>
-        <div class="row">
-          <div class="col sm-4">
-           <div className="holder">
-   
-           <Card >
-      <Card.Img variant="top" src={require('./Alog/dev.png')}  />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <a href="#"className="btn btn-primary">Read More</a>
-      </Card.Body>
-    </Card>
+      <div>
+        <AppHeader />
+      
+              <div id="blog" className="block blog-block">
+                
+                  <div class="container text-center">
+                      <div className="title-holder">
+                          <h2>About us</h2>
+                          <div className="sub-title">
+                              Get to know more about us
+                          </div>
+                      </div>
+                  <div class="row">
+                    <div class="col sm-4">
+                    <div className="holder">
+            
+                    <Card >
+                              <Card.Img variant="top" src={require('./h11.png')}  />
+                              <hr />
+                            <Card.Body>
+                              <Card.Title>FIND JOB</Card.Title>
+                              <Card.Text>
+                                Find companies and connect with your preferred ones directly
+                            
+                              </Card.Text>
+                              <a href="#"className="btn btn-primary">Read More</a>
+                            </Card.Body>
+                    </Card>
 
-           </div>
+                    </div>
+                    </div>
+                    <div class="col sm-4">
+                    <div className="holder">
+                          <Card >
+                                <Card.Img variant="top" src={require('./h2222.png')}/>
+                                <hr />
+                                <Card.Body>
+                                  <Card.Title>HIRE</Card.Title>
+                                  <Card.Text>
+                                    List your company and find appropriate people for your Job.
+                                    
+                                  </Card.Text>
+                                    <a href="#"className="btn btn-primary">Read More</a>
+                                </Card.Body>
+                          </Card>
+                    </div>
+                    </div>
+                    <div class="col sm-4">
+                    <div className="holder">
+                    <Card >
+                <Card.Img variant="top" src={require('./h3.png')} />
+                <hr />
+                <Card.Body>
+                  <Card.Title>STARTUPS</Card.Title>
+                  <Card.Text>
+                    Get connected with startups near you and grow it locally.
+                    
+                  </Card.Text>
+                  <a href="#"className="btn btn-primary">Read More</a>
+                </Card.Body>
+              </Card></div>
+                    </div>
+                  </div>
+                </div>
           </div>
-          <div class="col sm-4">
-          <div className="holder">
-          <Card >
-      <Card.Img variant="top" src={require('./Alog/dev.png')}/>
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <a href="#"className="btn btn-primary">Read More</a>
-      </Card.Body>
-    </Card>
-    </div>
-          </div>
-          <div class="col sm-4">
-          <div className="holder">
-          <Card >
-      <Card.Img variant="top" src={require('./Alog/dev.png')} />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <a href="#"className="btn btn-primary">Read More</a>
-      </Card.Body>
-    </Card></div>
-          </div>
-        </div>
-      </div></div>);}
+          
+      </div>
+  
+  );}

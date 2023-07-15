@@ -3,12 +3,16 @@ import styles from "./SearchPage.module.css";
 import { Optioncard } from "./OptionCard";
 import { Link } from "react-router-dom";
 import { MdLocationOn } from "react-icons/md";
+import Footer from "./Footer.js";
+import AppHeader from './Header';
+
 
 import React from 'react'
 
 function SearchPage() {
   return (
     <div className="sd">
+        <AppHeader />
         <div
                 style={{
                     paddingTop: "50px",
@@ -86,6 +90,7 @@ function SearchPage() {
                     </div>
                     <div className={styles.empty2}></div>
                 </div>
+                
 
 
 
@@ -93,6 +98,7 @@ function SearchPage() {
 
 
         </div>
+        <Footer />
       
     </div>
   )

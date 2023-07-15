@@ -1,10 +1,14 @@
 import React from 'react';
 import styles from './CompanyPage.module.css';
 import { Link } from 'react-router-dom';
+import AppHeader from './Header';
+
 function CompanyPage() {
   return (
     <div>
-      <div className={styles.hello}>LOOK OUT FOR YOUR PREFFRED COMPANIES HERE</div>
+      <AppHeader />
+
+       <div className={styles.hello}>LOOK OUT FOR YOUR PREFFRED COMPANIES HERE</div>
     
     
             <div className={styles.section_our_solution}>
