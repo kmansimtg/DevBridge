@@ -12,7 +12,7 @@ import CompanyPage from './Components/CompanyPage';
 import SearchPage from './Components/SearchPage';
 import CompanyListPage from './Components/CompanyListPage';
 
-
+import AppAboutus from './Components/Aboutus';
 
 import { BrowserRouter as Router, Routes, Route ,Switch } from "react-router-dom";
 
@@ -40,13 +40,13 @@ function App() {
               <Route path="/companypage" element={<CompanyPage />} />
               <Route path="/searchpage" element={<SearchPage />} />
               <Route path="/companylistpage" element={<CompanyListPage />} />
+              <Route path="/about" element={<AppAboutus />} />
 
 
 
+            </Routes> 
 
-            </Routes>
-
-        
+       
           </Router>
         </React.StrictMode>
    </div>
