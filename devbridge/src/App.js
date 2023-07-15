@@ -8,6 +8,11 @@ import Searchjob from './Components/Jobsearch';
 import Completed from './Components/Success';
 import Resumeupload from './Components/Uploadresume';
 import Jobapply from './Components/Applyjob';
+import CompanyPage from './Components/CompanyPage';
+import SearchPage from './Components/SearchPage';
+import CompanyListPage from './Components/CompanyListPage';
+
+
 
 import { BrowserRouter as Router, Routes, Route ,Switch } from "react-router-dom";
 
@@ -21,22 +26,29 @@ function App() {
 
        <React.StrictMode>
          <Router>
-          <Routes>
-             <Route path="/" element={<Homee /> }/>
-             <Route path="/signup" element={<SignUp /> }/>
-             <Route path="/login" element={<Login /> }/>
-            <Route path="/review" element={<Reviewonce/> }/>
-            <Route path="/completed" element={<Completed /> }/>
-          <Route path="/jobapply" element={<Jobapply /> }/>
-          <Route path="/resumeupload" element={<Resumeupload /> }/>
-          <Route path="/reviewonce" element={<Jobapply /> }/>
-          <Route path="/searchjob" element={<Searchjob />}/>
-<Route path="/contactus" element={<Contactus /> }/>
-</Routes>
+            <Routes>
+              <Route path="/" element={<Homee /> }/>
+              <Route path="/signup" element={<SignUp /> }/>
+              <Route path="/login" element={<Login /> }/>
+              <Route path="/review" element={<Reviewonce/> }/>
+              <Route path="/completed" element={<Completed /> }/>
+              <Route path="/jobapply" element={<Jobapply /> }/>
+              <Route path="/resumeupload" element={<Resumeupload /> }/>
+              <Route path="/reviewonce" element={<Jobapply /> }/>
+              <Route path="/searchjob" element={<Searchjob />}/>
+              <Route path="/contactus" element={<Contactus /> }/>
+              <Route path="/companypage" element={<CompanyPage />} />
+              <Route path="/searchpage" element={<SearchPage />} />
+              <Route path="/companylistpage" element={<CompanyListPage />} />
+
+
+
+
+            </Routes>
 
          
-         </Router>
-       </React.StrictMode>
+          </Router>
+        </React.StrictMode>
    </div>
   );
 }
