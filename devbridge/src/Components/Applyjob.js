@@ -1,4 +1,4 @@
-
+import './Uploadresume.css';
 import React from "react";
 import './Form.css';
 import '../App.css';
@@ -25,13 +25,30 @@ export default function Applyjob(){
                        
                         <p >Your online resume will also be updated with this contact information.</p>
                     </div>
-                    <div>
-                        <h5>Return to job search</h5>
-                        <Link to="/resumeupload">  <button >Continue</button></Link>
-                    </div>
+                    
                 </form>
+                <h3 style={{ marginTop: 20, paddingTop: 20, fontWeight: 700 }}>Add a resume for Manas</h3>
+    <input type="file" name="resume"   style={{ display: 'none' }} />
+    <div >
+      
+        <section>
+            <h4 style={{ margin: 0, padding: 0 }}>Upload resume</h4>
+            <p>Use a pdf, docx, doc, rtf and txt</p>
+        </section>
+       
+    </div>
+
+    <div>
+        
+        <button type="button" className='btn btn-primary'>Upload</button>
+    </div>
+   
                 <p>Having an issue with this application?<span>Tell us more</span></p>
                 </div>
+                <div>
+                        
+                <Link to="/review">  <button >Continue</button></Link>
+                    </div>
     </div>
 
     </div>
