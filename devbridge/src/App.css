@@ -876,12 +876,12 @@ textarea {
 
 .blog-block .card-title {
   margin: 0 0 10px;
-  color: #f64b4b;
+  color: #3448f5;
   font-size: 22px;
 }
 
 .blog-block .card-title a:hover {
-  color: #d10a0a;
+  color: #3448f5;
 }
 
 .blog-block .meta {
@@ -904,7 +904,7 @@ textarea {
 }
 
 .blog-block .meta .category a:hover {
-  color: #f64b4b;
+  color: #3448f5;
 }
 
 .contact-block {

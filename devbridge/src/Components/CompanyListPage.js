@@ -26,6 +26,7 @@ function CompanyListPage() {
                     
                     
                     <div className={styles.results1}>
+                    <a href='https://drive.google.com/file/d/1Fz8fHQHTrfAkoVOIILUnY0IjXfLZjifY/view?usp=drivesdk'>
                             <div className={styles.entry}>
                                 <div className={styles.icon}>
                                 <svg fill="none" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +43,8 @@ function CompanyListPage() {
                                 </div>
                                 <p className={styles.badge}>New
                                 </p>
-                            </div>
+                            </div></a>
+                            <a href='https://drive.google.com/file/d/1Fz8fHQHTrfAkoVOIILUnY0IjXfLZjifY/view?usp=drivesdk'>
                             <div className={styles.entry}>
                             <div className={styles.icon}>
                                     <svg fill="none" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg">
@@ -56,10 +58,11 @@ function CompanyListPage() {
                                 </div>
                                 <p className={styles.badge}>New
                                 </p>
-                            </div>
+                            </div></a>
                     </div>
                 
                     <div className={styles.results1}>
+                    <a href='https://drive.google.com/file/d/1Fz8fHQHTrfAkoVOIILUnY0IjXfLZjifY/view?usp=drivesdk'>
                             <div className={styles.entry}>
                              <div className={styles.icon}>
                                 <svg fill="none" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +82,8 @@ function CompanyListPage() {
                                 <span>Resume from Sakshi Kumari- REACT DEVELOPER</span>
                             </div>
                             <p className={styles.badge}>New
-                            </p></div>
+                            </p></div></a>
+                            <a href='https://drive.google.com/file/d/1Fz8fHQHTrfAkoVOIILUnY0IjXfLZjifY/view?usp=drivesdk'>
                             <div className={styles.entry}>
                             <div className={styles.icon}>
                                 <svg fill="none" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +97,8 @@ function CompanyListPage() {
                                 <label>Nisar Jha</label>
                                 <span>Resume from Nisar Jha- REACT DEVELOPER</span>
                             </div>
-                            </div>
+                            </div></a>
+                            <a href='https://drive.google.com/file/d/1Fz8fHQHTrfAkoVOIILUnY0IjXfLZjifY/view?usp=drivesdk'>
                             <div className={styles.entry}>
                                 <div className={styles.icon}>
                                 <svg fill="none" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +111,7 @@ function CompanyListPage() {
                                 <label>Kushagra Dwivedi</label>
                                 <span>Resume from Kushaggra Dwivedi- REACT DEVELOPER</span>
                                 </div>
-                            </div>
+                            </div></a>
                             <div className={styles.entry}>
                                 <div className={styles.icon}>
                                 <svg fill="none" viewBox="0 0 24 24" height={20} width={20} xmlns="http://www.w3.org/2000/svg">

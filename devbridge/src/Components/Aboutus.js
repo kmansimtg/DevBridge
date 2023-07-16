@@ -3,7 +3,7 @@ import '../App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import AppHeader from './Header';
-
+import { Link } from 'react-router-dom';
 
  export default function AppAboutus(){
     return(
@@ -60,12 +60,12 @@ import AppHeader from './Header';
                 <Card.Img variant="top" src={require('./h3.png')} />
                 <hr />
                 <Card.Body>
-                  <Card.Title>STARTUPS</Card.Title>
+                  <Card.Title>STARTUPS FREINDLY</Card.Title>
                   <Card.Text>
-                    Get connected with startups near you and grow it locally.
+                    We provide you best options to build your app and website in your budget.
                     
                   </Card.Text>
-                  <a href="#"className="btn btn-primary">Read More</a>
+                  <Link to ="/contactus"><a href="#"className="btn btn-primary">Contact us</a></Link>
                 </Card.Body>
               </Card></div>
                     </div>
