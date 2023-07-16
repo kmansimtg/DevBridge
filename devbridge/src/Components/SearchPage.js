@@ -23,23 +23,21 @@ function SearchPage() {
                 <div style={{ display: "flex" }}>
                     <div className={styles.area}>
                         <form className={styles.forms} action="">
-                            <div  className={styles.deb}>
+                        <div className={styles.deb2}>
                                 <div className={styles.search}>
                                     <div className={styles.lab}>What?</div>
                                     <div className={styles.inp}>
                                         <input
                                             type="text"
-                                            
-                                            placeholder="Job title, keywords, or company"
+                                            placeholder="Job titles,tags or company"
                                             className={styles.inpu}
-                                            
                                         />
                                     </div>
                                     <div style={{ paddingRight: "0rem" }}>
-                                        <BsSearch style={{ width: 12 }} />{" "}
+                                        <MdLocationOn />{" "}
                                     </div>
+                                    
                                 </div>
-                                
                             </div>
                             <div className={styles.deb2}>
                                 <div className={styles.search}>

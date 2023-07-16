@@ -12,7 +12,7 @@ export default function Applyjob(){
     return(
         <div >
 
-                <div className='upper-part1'   >
+                <div className='upper-part'   >
                     <div className='wrapper'>
                     <div>
                         <h6>Application step 1 of 3</h6>
