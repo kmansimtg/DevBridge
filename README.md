@@ -67,7 +67,7 @@ Start the server
 ```
 
 
-## Video Presentation
+## Presentation
 
 [Click to view the presentation](https://www.canva.com/design/DAFgDYvDMAM/yN6TtcHIn9tjtWvbZ6tI2g/edit?utm_content=DAFgDYvDMAM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
@@ -88,4 +88,8 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
+## Link to Deployed App
+
+https://deflecting-torque.github.io/DevBridge
+
 
