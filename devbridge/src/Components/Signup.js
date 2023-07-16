@@ -1,7 +1,7 @@
 
 import styles from './Signup.module.css';
 import InputControl from './InputControl';
-import { Link } from 'react-router-dom';
+import { Link , useNavigate } from 'react-router-dom';
 import React , { useState } from 'react';
 import { createUserWithEmailAndPassword , updateProfile } from "firebase/auth";
 import { auth } from './firebase.js';
@@ -9,7 +9,7 @@ import background from "./hello1.png";
 
 function SignUp() {
   
-  
+    const navigate= useNavigate();
     const [values, setValues] = useState({
       name: "",
       email: "",
@@ -25,13 +25,13 @@ function SignUp() {
       setErrorMsg("");
       setSubmitButtonDisabled(true);
       createUserWithEmailAndPassword(auth,values.email,values.pass)
-      .then((res)=>{
+      .then(async(res)=>{
         setSubmitButtonDisabled(false);
         const user = res.user;
-        updateProfile(user, {
+        await updateProfile(user, {
           displayName: values.name,
         });
-        console.log(user);
+        navigate("/")
       })
       .catch((err)=>{
         setSubmitButtonDisabled(false);
