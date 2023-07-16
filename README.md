@@ -41,7 +41,7 @@ Dependencies
     
 ## Tech Stack
 
- ReactJS, Bootstrap, TailwindCSS, HTML, Javascript
+ ReactJS, Bootstrap, TailwindCSS, HTML, Javascript, Firebase 
 
 
 ## Run Locally
