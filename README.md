@@ -74,7 +74,7 @@ Start the server
 
 ## Screenshots
 
-![](https://drive.google.com/file/d/1q2HHpQya1O2gcv2CYLTpFNpPxV01x2fx/view?usp=sharing)
+![alt text](https://drive.google.com/file/d/1qqDgTxuHEagwuVVhMWS-EIcElECLmezQ/view?usp=sharing)
 ![App Screenshot](https://drive.google.com/file/d/1qqDgTxuHEagwuVVhMWS-EIcElECLmezQ/view?usp=sharing)
 ![App Screenshot](https://drive.google.com/file/d/1Av3PymW_qaSdsmToyVwX62rEzSlCaoxR/view?usp=sharing)
 ![App Screenshot](https://drive.google.com/file/d/1qgyPbarX7czv1-fLa4Ra-LV_gT-aKqUg/view?usp=sharing)
