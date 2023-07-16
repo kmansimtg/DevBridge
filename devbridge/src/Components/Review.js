@@ -2,11 +2,11 @@ import React from 'react';
 import './Review.css';
 import '../App.css';
 import {Link} from "react-router-dom";
-import background from "./hello12.png" ;
+
 import AppHeader from './Header';
 
 
-//import { BrowserRouter as Router,Route,Switch,Link} from "react-router-dom";
+
 export default function Review(){return(
     <div className="chal1" >
         <AppHeader />

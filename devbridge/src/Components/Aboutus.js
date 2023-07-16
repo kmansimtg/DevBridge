@@ -1,9 +1,9 @@
 import React from "react";
 import '../App.css';
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import AppHeader from './Header';
-import { Link } from 'react-router-dom';
+
 
  export default function AppAboutus(){
     return(
@@ -32,7 +32,7 @@ import { Link } from 'react-router-dom';
                                 Find companies and connect with your preferred ones directly
                             
                               </Card.Text>
-                              <a href="#"className="btn btn-primary">Read More</a>
+                              <a href="https://github.com"className="btn btn-primary">Read More</a>
                             </Card.Body>
                     </Card>
 
@@ -49,7 +49,7 @@ import { Link } from 'react-router-dom';
                                     List your company and find appropriate people for your Job.
                                     
                                   </Card.Text>
-                                    <a href="#"className="btn btn-primary">Read More</a>
+                                    <a href="https://github.com"className="btn btn-primary">Read More</a>
                                 </Card.Body>
                           </Card>
                     </div>
@@ -65,7 +65,7 @@ import { Link } from 'react-router-dom';
                     We provide you best options to build your app and website in your budget.
                     
                   </Card.Text>
-                  <Link to ="/contactus"><a href="#"className="btn btn-primary">Contact us</a></Link>
+                  <a href="/contactus"className="btn btn-primary">Contact us</a>
                 </Card.Body>
               </Card></div>
                     </div>

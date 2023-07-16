@@ -27,21 +27,21 @@ const Footer = () => {
                 </div>
                 <a
                     href="https://github.com/sudiptob2/simple-react-footer"
-                    target="_blank"
+                   
                     className="item3"
                 >
                     <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a
                     href="http://fb.com/sudiptob2"
-                    target="_blank"
+                    
                     className="item4"
                 >
                     <FontAwesomeIcon icon={faFacebook} />
                 </a>
                 <a
                     href="https://www.youtube.com/"
-                    target="_blank"
+                    
                     className="item5"
                 >
                     <FontAwesomeIcon icon={faYoutube} />

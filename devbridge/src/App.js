@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import Homee from './Components/Home';
 import SignUp from './Components/Signup';
 import Login from './Components/Login';
@@ -14,7 +14,7 @@ import CompanyListPage from './Components/CompanyListPage';
 
 import AppAboutus from './Components/Aboutus';
 
-import { BrowserRouter as Router, Routes, Route ,Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 
 import './App.css';
 

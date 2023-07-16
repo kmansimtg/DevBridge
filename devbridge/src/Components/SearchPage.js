@@ -1,4 +1,4 @@
-import { BsSearch } from "react-icons/bs";
+
 import styles from "./SearchPage.module.css";
 import { Optioncard } from "./OptionCard";
 import { Link } from "react-router-dom";

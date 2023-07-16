@@ -3,7 +3,7 @@ import React from "react";
 import './Form.css';
 import '../App.css';
 import { Link } from 'react-router-dom';
-import background from "./hello12.png" ;
+
 
 
 
