@@ -33,7 +33,6 @@ function App() {
               <Route path="/review" element={<Reviewonce/> }/>
               <Route path="/completed" element={<Completed /> }/>
               <Route path="/jobapply" element={<Jobapply /> }/>
-              
               <Route path="/reviewonce" element={<Jobapply /> }/>
               <Route path="/searchjob" element={<Searchjob />}/>
               <Route path="/contactus" element={<Contactus /> }/>

@@ -11,8 +11,7 @@ import AppHeader from './Header';
         <AppHeader />
       
               <div id="blog" className="block blog-block">
-                
-                  <div class="container text-center">
+                <div class="container text-center">
                       <div className="title-holder">
                           <h2>About us</h2>
                           <div className="sub-title">
