@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/DevBridge/static/css/main.f1f1a7fc.css",
+    "main.js": "/DevBridge/static/js/main.1d9c5642.js",
+    "static/js/453.83a20a74.chunk.js": "/DevBridge/static/js/453.83a20a74.chunk.js",
+    "static/media/hello1.png": "/DevBridge/static/media/hello1.794b4456155b8609d8e0.png",
+    "static/media/dev.png": "/DevBridge/static/media/dev.6d037fa1f7c53ef76baf.png",
+    "static/media/h3.png": "/DevBridge/static/media/h3.325d44d7a85c6a1c17d0.png",
+    "static/media/h11.png": "/DevBridge/static/media/h11.b1fc7eb7fc379b7c765f.png",
+    "static/media/h2222.png": "/DevBridge/static/media/h2222.fd3ae4733f2d20455a36.png",
+    "static/media/h33.png": "/DevBridge/static/media/h33.e45f8aba41a2ba5bf5d9.png",
+    "index.html": "/DevBridge/index.html",
+    "main.f1f1a7fc.css.map": "/DevBridge/static/css/main.f1f1a7fc.css.map",
+    "main.1d9c5642.js.map": "/DevBridge/static/js/main.1d9c5642.js.map",
+    "453.83a20a74.chunk.js.map": "/DevBridge/static/js/453.83a20a74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1f1a7fc.css",
+    "static/js/main.1d9c5642.js"
+  ]
+}
